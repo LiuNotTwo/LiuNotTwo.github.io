@@ -24,4 +24,4 @@ typedef struct stu{
 
 scanf("%s%d",students[i].name, &students[i].score);
 
-在用scanf赋值时情形1没有问题，情形而出错。
+在用scanf赋值时情形1没有问题，情形2出错。
