@@ -11,7 +11,8 @@ tags:                               #标签
 ---
 
 ## 字符串声明与赋值
-> C语言
+
+
 typedef struct stu{
     char name[20];  //姓名
     int score;  //成绩
