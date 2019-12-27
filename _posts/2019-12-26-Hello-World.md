@@ -1,16 +1,27 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      My First Post               # 标题 
+title:      C语言结构体内字符串变量的声明和赋值              # 标题 
 subtitle:   Hello World, Hello Blog #副标题
 date:       2019-12-26              # 时间
-author:     BY                      # 作者
+author:     NotTwo                  # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - test
 ---
 
-## Hey
->这是我的第一篇博客。
+## 字符串声明与赋值
+> C语言
+typedef struct stu{
+    char name[20];  //姓名
+    int score;  //成绩
+} Stu;
 
-进入你的博客主页，新的文章将会出现在你的主页上.
+typedef struct stu{
+    char *name;  //姓名
+    int score;  //成绩
+} Stu;
+
+scanf("%s%d",students[i].name, &students[i].score);
+
+在用scanf赋值时情形1没有问题，情形而出错。
