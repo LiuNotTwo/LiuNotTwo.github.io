@@ -12,7 +12,7 @@ tags:                               #标签
 
 ## 字符串声明与赋值
 
-
+```
 typedef struct stu{
     char name[20];  //姓名
     int score;  //成绩
@@ -24,5 +24,5 @@ typedef struct stu{
 } Stu;
 
 scanf("%s%d",students[i].name, &students[i].score);
-
+```
 在用scanf赋值时情形1没有问题，情形2出错。
